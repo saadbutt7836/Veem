@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676214991462",
+    "firebase_url": "https://veem-dde89.firebaseio.com",
+    "project_id": "veem-dde89",
+    "storage_bucket": "veem-dde89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676214991462:android:b99e630d23cd5598ab9ba7",
+        "android_client_info": {
+          "package_name": "com.wgorganizaton.veem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676214991462-bvqta45q7mn8qff1ocvkbf18amj6brvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wgorganizaton.veem",
+            "certificate_hash": "c7df23c1a5d8090b214e03f9bb55ebdac111b162"
+          }
+        },
+        {
+          "client_id": "676214991462-bbbu8kfi0u5lbhekr6m2gpq0q84lldgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLZfDIhGHwRk6ccZ0vXtqnUOksFgeJHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676214991462-bbbu8kfi0u5lbhekr6m2gpq0q84lldgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
