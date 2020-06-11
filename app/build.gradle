@@ -5,6 +5,14 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+
+    // Butterknife requires Java 8.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
     defaultConfig {
         applicationId "com.wgorganizaton.veem"
         minSdkVersion 21
@@ -30,8 +38,27 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.4'
     implementation 'com.google.firebase:firebase-storage:16.0.4'
     implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.android.material:material:1.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+    //CARDVIEW
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    //CIRCULAR IMAGEVIEW
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
+
+    //PICASSO
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+//    ALL SCREEN SIZES HANDLE
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+//    BOILER CODE PLATE
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
 
 }

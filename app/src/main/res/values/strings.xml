@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">Veem</string>
+
+
+    <!--    AUTHENTICATION-->
+    <string name="register">Register</string>
+    <string name="sign_in">SignIn</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="pass">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="sign_up">SignUp</string>
+    <string name="forgot_pass"><u>forgot password?</u></string>
+    <string name="send_code">Send Code</string>
+    <string name="verify_code">Verification Code</string>
+    <string name="send_email_verify">Send verification email</string>
+    <string name="title_forgot_pass">Forgott Password</string>
+    <string name="create">Create</string>
+
+    <!--LOGIN TYPE-->
+    <string name="as_tablet">Tablet Admin</string>
+    <string name="as_user">User</string>
+
+
+    <!--    HOME-->
+    <string name="dashboard">Dashboard</string>
+    <string name="tablet_connect">Connected Tablet</string>
+    <string name="subscribe">Subscription</string>
+    <string name="audio_call">Audio Call</string>
+    <string name="video_call">Video Call</string>
+    <string name="text_sms">Text</string>
+
+    <!--    SETTINGS-->
+    <string name="settings">Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_pass">Change Password</string>
+    <string name="sign_out">SignOut</string>
 </resources>
