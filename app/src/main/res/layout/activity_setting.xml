@@ -4,9 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/White"
     android:orientation="vertical"
     tools:context=".Activity.SettingActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/connect_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/connect_counts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="@dimen/_50sdp"
+                android:minHeight="@dimen/_50sdp"
+                android:text="545"
+                android:textColor="@color/Charcoal"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/connections"
+                android:textAllCaps="false"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sub_left_counts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="@dimen/_50sdp"
+                android:minHeight="@dimen/_50sdp"
+                android:text="545"
+                android:textColor="@color/Charcoal"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/days_left"
+                android:textAllCaps="false"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,56 +136,19 @@
             android:src="@drawable/subscribe"
             android:tint="@color/Charcoal" />
 
-        <com.google.android.material.textfield.TextInputLayout
+
+        <TextView
+            android:id="@+id/buy_subscription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true">
-
-            <TextView
-                android:id="@+id/subscription"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/DimPurple"
-                android:paddingStart="@dimen/_3sdp"
-                android:text="@string/subscribe"
-                android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/DimPurple"
+            android:paddingStart="@dimen/_3sdp"
+            android:text="@string/subscribe"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical">
-
-        <ImageView
-            android:layout_width="@dimen/_30sdp"
-            android:layout_height="@dimen/_30sdp"
-            android:layout_margin="@dimen/_5sdp"
-            android:padding="@dimen/_5sdp"
-            android:src="@drawable/connection"
-            android:tint="@color/Charcoal" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true">
-
-            <TextView
-                android:id="@+id/connect_tablet"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/DimPurple"
-                android:paddingStart="@dimen/_3sdp"
-                android:text="@string/tablet_connect"
-                android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -128,23 +163,17 @@
             android:src="@drawable/lock"
             android:tint="@color/Charcoal" />
 
-        <com.google.android.material.textfield.TextInputLayout
+
+        <TextView
+            android:id="@+id/change_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true">
-
-            <TextView
-                android:id="@+id/change_pass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/DimPurple"
-                android:paddingStart="@dimen/_3sdp"
-                android:text="@string/change_pass"
-                android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/DimPurple"
+            android:paddingStart="@dimen/_3sdp"
+            android:text="@string/change_pass"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -160,23 +189,17 @@
             android:src="@drawable/signout"
             android:tint="@color/Charcoal" />
 
-        <com.google.android.material.textfield.TextInputLayout
+
+        <TextView
+            android:id="@+id/sign_out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true">
-
-            <TextView
-                android:id="@+id/sign_out"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/DimPurple"
-                android:paddingStart="@dimen/_3sdp"
-                android:text="@string/sign_out"
-                android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:backgroundTint="@color/DimPurple"
+            android:paddingStart="@dimen/_3sdp"
+            android:text="@string/sign_out"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>

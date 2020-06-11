@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,10 +30,20 @@ import butterknife.ButterKnife;
 
 public class SettingActivity extends AppCompatActivity implements View.OnClickListener {
 
+    @BindView(R.id.connect_click)
+    LinearLayout Connect_Click;
+    @BindView(R.id.connect_counts)
+    TextView Connect_Counts;
+    @BindView(R.id.sub_left_counts)
+    TextView Sub_Left_Counts;
+
+
     @BindView(R.id.edit_profile)
     Button Edit_profile;
     @BindView(R.id.setting_email)
     TextView Setting_Email;
+    @BindView(R.id.buy_subscription)
+    TextView Buy_Subscription;
     @BindView(R.id.change_pass)
     TextView Change_Pass;
     @BindView(R.id.sign_out)
@@ -64,7 +75,9 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
         RetrieveUserInfo();
 
 //        CLICK LISTENERS
+        Connect_Click.setOnClickListener(this);
         Edit_profile.setOnClickListener(this);
+        Buy_Subscription.setOnClickListener(this);
         Change_Pass.setOnClickListener(this);
         SignOut.setOnClickListener(this);
     }
@@ -78,14 +91,17 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.profile_img:
-                Toast.makeText(this, "working", Toast.LENGTH_SHORT).show();
+            case R.id.connect_click:
+                Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.edit_profile:
-                Toast.makeText(this, "working", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buy_subscription:
+                Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.change_pass:
-                Toast.makeText(this, "working", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.sign_out:
                 UserSignOut();
