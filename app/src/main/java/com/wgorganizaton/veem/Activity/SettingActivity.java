@@ -26,6 +26,7 @@ import com.wgorganizaton.veem.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 
 public class SettingActivity extends AppCompatActivity implements View.OnClickListener {
@@ -54,7 +55,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     private String userId;
 
 
-//    FIREBASE
+    //    FIREBASE
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase, UserRef;
 
@@ -98,7 +99,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
                 Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.buy_subscription:
-                Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, SubscriptionActivity.class));
                 break;
             case R.id.change_pass:
                 Toast.makeText(this, "coming soon", Toast.LENGTH_SHORT).show();

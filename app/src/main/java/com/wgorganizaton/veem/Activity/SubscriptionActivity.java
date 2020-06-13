@@ -16,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.wgorganizaton.veem.R;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class SubscriptionActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -35,6 +36,8 @@ public class SubscriptionActivity extends AppCompatActivity implements View.OnCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subscription);
+
+        ButterKnife.bind(this);
 
         getSupportActionBar().setTitle(getString(R.string.subscribe));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
