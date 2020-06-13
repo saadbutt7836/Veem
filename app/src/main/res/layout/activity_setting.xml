@@ -34,7 +34,7 @@
                 android:minHeight="@dimen/_50sdp"
                 android:text="545"
                 android:textColor="@color/Charcoal"
-                android:textSize="@dimen/_15sdp"
+                android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
 
             <TextView
@@ -44,7 +44,7 @@
                 android:text="@string/connections"
                 android:textAllCaps="false"
                 android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
+                android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -65,7 +65,7 @@
                 android:minHeight="@dimen/_50sdp"
                 android:text="545"
                 android:textColor="@color/Charcoal"
-                android:textSize="@dimen/_15sdp"
+                android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
 
             <TextView
@@ -75,7 +75,7 @@
                 android:text="@string/days_left"
                 android:textAllCaps="false"
                 android:textColor="@color/Black"
-                android:textSize="@dimen/_15sdp"
+                android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
@@ -107,7 +107,7 @@
                 android:backgroundTint="@color/DimPurple"
                 android:paddingStart="@dimen/_3sdp"
                 android:textColor="@color/Charcoal"
-                android:textSize="@dimen/_15sdp" />
+                android:textSize="@dimen/_15ssp" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
@@ -145,7 +145,7 @@
             android:paddingStart="@dimen/_3sdp"
             android:text="@string/subscribe"
             android:textColor="@color/Black"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -172,7 +172,7 @@
             android:paddingStart="@dimen/_3sdp"
             android:text="@string/change_pass"
             android:textColor="@color/Black"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -198,7 +198,7 @@
             android:paddingStart="@dimen/_3sdp"
             android:text="@string/sign_out"
             android:textColor="@color/Black"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold" />
     </LinearLayout>
 

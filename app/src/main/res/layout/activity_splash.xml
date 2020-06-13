@@ -23,7 +23,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         android:text="@string/app_name"
         android:textColor="@color/Orange"
-        android:textSize="@dimen/_35sdp"
+        android:textSize="@dimen/_35ssp"
         android:textStyle="bold|italic" />
 
 

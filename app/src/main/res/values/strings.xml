@@ -39,4 +39,11 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="change_pass">Change Password</string>
     <string name="sign_out">SignOut</string>
+
+    <!--    SUBSCRIPTION-->
+    <string name="tablet_id">Tablet Id</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_card">Credit Card</string>
+
+
 </resources>

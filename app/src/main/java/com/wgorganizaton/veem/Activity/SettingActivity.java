@@ -54,6 +54,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     private String userId;
 
 
+//    FIREBASE
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase, UserRef;
 
@@ -66,7 +67,6 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(getString(R.string.settings));
-
 
         ButterKnife.bind(this);
 

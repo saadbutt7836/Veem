@@ -53,7 +53,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Charcoal"
-                    android:textSize="@dimen/_17sdp"
+                    android:textSize="@dimen/_17ssp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -64,7 +64,7 @@
                     android:layout_marginTop="@dimen/_5sdp"
                     android:text="ID: asde14"
                     android:textColor="@color/GreyBrown"
-                    android:textSize="@dimen/_15sdp" />
+                    android:textSize="@dimen/_15ssp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:paddingStart="@dimen/_20sdp"
             android:text="@string/dashboard"
             android:textColor="@color/Charcoal"
-            android:textSize="@dimen/_25sdp" />
+            android:textSize="@dimen/_25ssp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -134,7 +134,7 @@
                                 android:text="@string/audio_call"
                                 android:textAllCaps="false"
                                 android:textColor="@color/Charcoal"
-                                android:textSize="@dimen/_15sdp"
+                                android:textSize="@dimen/_15ssp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -167,7 +167,7 @@
                                 android:text="@string/video_call"
                                 android:textAllCaps="false"
                                 android:textColor="@color/Charcoal"
-                                android:textSize="@dimen/_15sdp"
+                                android:textSize="@dimen/_15ssp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -208,7 +208,7 @@
                                 android:text="@string/text_sms"
                                 android:textAllCaps="false"
                                 android:textColor="@color/Charcoal"
-                                android:textSize="@dimen/_15sdp"
+                                android:textSize="@dimen/_15ssp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -241,7 +241,7 @@
                                 android:text="@string/settings"
                                 android:textAllCaps="false"
                                 android:textColor="@color/Charcoal"
-                                android:textSize="@dimen/_15sdp"
+                                android:textSize="@dimen/_15ssp"
                                 android:textStyle="bold" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
